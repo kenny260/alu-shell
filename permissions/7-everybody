@@ -1,2 +1,2 @@
 #!/bin/bash
-cat << EOF > switch_to_betty.h 
+cat << EOF > switch_to_betty.sh 
