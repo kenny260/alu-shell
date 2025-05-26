@@ -1,2 +1,2 @@
 #!/bin/bash
-# This script switches the current user to "betty".
+cat << EOF > switch_to_betty.h 
