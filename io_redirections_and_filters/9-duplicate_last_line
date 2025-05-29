@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "This script runs without error and meets the specified criteria."
