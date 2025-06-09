@@ -1,0 +1,2 @@
+#!/bi/bash
+find . -type f -name "*.gif" -print | while read -r f; do echo "${f##*/}" | sed 's/\.gif$//'; done | LC_ALL=C sort -f
