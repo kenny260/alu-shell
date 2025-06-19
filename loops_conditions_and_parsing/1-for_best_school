@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-# This script display Best school ten times
+# This script displays username, user id, and home directory from /etc/passwd
 
-for  _ in {1..10}
-do
-echo "Best School"
-done
+while IFS=: read -r username _ userid _ _ home _; do
+  echo "${username}:${userid}:${home}"
+done < /etc/passwd
